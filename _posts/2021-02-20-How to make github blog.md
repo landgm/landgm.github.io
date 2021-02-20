@@ -16,13 +16,13 @@ category: ETC
 
 * 위에 링크를 타고 들어가면 많은 테마가 있습니다. 거기서 하나를 골라주세요
 
-[참고](https://github.com/landgm/image/blob/master/img/20210219_210313.png?raw=true)
+![참고](https://github.com/landgm/image/blob/master/img/20210219_210313.png?raw=true)
 
 
 
 ## 우축위에 Fork를 눌러줍니다
 
-[참고2](https://github.com/landgm/image/blob/master/img/20210219_210603.png?raw=true)
+![참고2](https://github.com/landgm/image/blob/master/img/20210219_210603.png?raw=true)
 
 
 
