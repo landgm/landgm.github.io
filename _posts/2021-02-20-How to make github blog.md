@@ -1,10 +1,10 @@
 ---
-​---
+
 title:  "How to make github blog!"
 excerpt: "Make github blog"
 tags : github
 categories : ETC
-​---
+​
 ---
 
 ### Github blog 만드는 방법
