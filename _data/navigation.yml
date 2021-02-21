@@ -2,8 +2,8 @@
 main:
   - title: "Paper Review"
     url: https://landgm.github.io/categories/Paper/
-   - title: "ETC"
-     url: https://landgm.github.io/categories/ETC/
+  - title: "ETC"
+    url: https://landgm.github.io/categories/ETC/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
