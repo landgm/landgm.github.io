@@ -5,10 +5,6 @@ summary: make blog
 author: Gang Min
 date: '2021-02-19 '
 categories : ETC
-tags : 
-	-github
-	-blog
-	-make
 
 ---
 
