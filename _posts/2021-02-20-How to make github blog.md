@@ -8,9 +8,9 @@ category: ETC
 
 ---
 
-# 깃허브 블로그 만드는 방법
+### Github blog 만드는 방법
 
-## 수만은 시행착오 끝에 성공해서 다른 분들은 쉽게 했으면 좋겠다는 마음으로 업로드합니다.
+---
 
 [깃허브 테마](https://github.com/topics/jekyll-theme)
 
@@ -20,21 +20,20 @@ category: ETC
 
 
 
-## 우축위에 Fork를 눌러줍니다
+#### 우축위에 Fork를 눌러줍니다
 
 ![참고2](https://github.com/landgm/image/blob/master/img/20210219_210603.png?raw=true)
 
 
 
-# **Setting**에 들어가서 Repostiory name을 만들어줍니다
+#### Setting에 들어가서Repostiory name을 만들어줍니다
 
 * **본인**의 **아이디**가 무조건들어가야합니다
+* **본인아이디.github.io**
+  
+* 이후 **rename**을 눌러줍니다
 
-    * **본인아이디.github.io**
-
-    * 이후 **rename**을 눌러줍니다
-
-# rename을 해준 다음에 Code에 들어가서 _config.yml에 들어가 줍니다
+ #### rename을 해준 다음에 Code에 들어가서 _config.yml에 들어가 줍니다
 
 * 들어가서 url: https://landgm.github.io (자신의 url이 들어가도록 만들어 줍니다)
 
@@ -42,8 +41,7 @@ category: ETC
 
  이렇게하면 블로그에 글을 쓸 수 있습니다
 
-
-### 이제 어떻게 글을 쓰는지에 대해서 소개하겠습니다
+#### 이제 어떻게 글을 쓰는지에 대해서 소개하겠습니다
 
 * Add file
     * create new file
@@ -65,9 +63,10 @@ category: ETC
            ^
     SyntaxError: invalid syntax
 
+#### 주피터 노트북을 이용해서 파일 올리기 전에 설정할 것들
 
+ * 
 
-# 주피터 노트북을 이용해서 파일 올리기 전에 설정할 것들
  * typora 설치
   * typora 자동 업로드 하기
 
@@ -82,9 +81,11 @@ category: ETC
 
 다운받은 파일을 **_posts**에 들어가서 Add file -> uploadfile을 이용해서 포스팅해줍니다 (1분 소요)
 
-### 저는 이미지 올리는데 오류가 많이나서 고생을 했는데요 그걸 해결한 방법을 알려드리겠습니다
+### #### 저는 이미지 올리는데 오류가 많이나서 고생을 했는데요 그걸 해결한 방법을 알려드리겠습니다
 
 ### 이미지를 올릴 때는 typora에 먼저 image upload를 해야합니다 
+
+---
 
    * github에 지정해준 image repository를 가면 image가 있습니다
    * 그 이미지 url을 가져와서 typora에 붙여줍니다.
