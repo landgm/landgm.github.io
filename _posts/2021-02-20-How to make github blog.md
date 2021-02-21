@@ -1,10 +1,16 @@
 ---
-layout: category
+
+layout : category
 title:  "How to make github blog!"
 summary: make blog
 author: Gang Min
 date: '2021-02-19 '
+permalink: /categories/ETC/
 taxonomy: ETC
+tags : 
+	-gan
+	-paper
+	-review
 
 ---
 
