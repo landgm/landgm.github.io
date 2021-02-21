@@ -24,7 +24,7 @@ description              : "Blog to record"
 url                      : "https://landgm.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "http://tourimage.interpark.com/BBS/Tour/FckUpload/201404/6353433153040709340.jpg"
+teaser                   : #"http://tourimage.interpark.com/BBS/Tour/FckUpload/201404/6353433153040709340.jpg"
 logo                     : "http://tourimage.interpark.com/BBS/Tour/FckUpload/201404/6353433153040709340.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -281,7 +281,7 @@ defaults:
       share: true
       related: true
 
-# _pages
+  # _pages
   - scope:
       path: ""
       type: pages
