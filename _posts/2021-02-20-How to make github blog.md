@@ -1,9 +1,8 @@
 ---
 
 title:  "How to make github blog!"
-summary: make blog
-author: Gang Min
-date: '2021-02-19 '
+excerpt: "Make github blog"
+tags : github
 categories : ETC
 
 ---
