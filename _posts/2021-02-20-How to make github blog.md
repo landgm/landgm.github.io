@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: category
 title:  "How to make github blog!"
 summary: make blog
-author: gang min
+author: Gang Min
 date: '2021-02-19 '
-category: ETC
+taxonomy: ETC
 
 ---
 
