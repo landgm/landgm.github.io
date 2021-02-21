@@ -1,8 +1,7 @@
 ---
-
 title:  "How to make github blog!"
 excerpt: "Make github blog"
-tags : github
+tags : github,blog,git
 categories : ETC
 ​
 ---
