@@ -1,9 +1,9 @@
 ---
 title: "ETC"
-permalink: /categories/ETC/
+permalink: /categories/etc/
 layout: category
 author_profile: true
-taxonomy: ETC
+taxonomy: etc
 
 ---
 

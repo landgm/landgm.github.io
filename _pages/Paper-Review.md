@@ -1,8 +1,8 @@
 ---
 title: "Paper Review"
-permalink: /categories/Paper-Review/
+permalink: /categories/paper-review/
 layout: category
 author_profile: true
-taxonomy: Paper-Review
+taxonomy: paper-review
 ---
 
