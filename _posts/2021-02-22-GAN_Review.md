@@ -6,7 +6,7 @@ categories : paper-review
 tags : [GAN,paper,review]
 ---
 
-
+##### https://github.com/yunjey/pytorch-tutorial 님의 코드를 보고 코멘트를 추가했습니다.
 
 Discriminator는 Generator가 생성하는 값이 가짜로 구별하기 위해서 노력하고
 
