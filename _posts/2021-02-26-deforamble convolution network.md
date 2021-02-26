@@ -1,7 +1,6 @@
 ---
 title: "Deformable Convolutional Networks Paper Review"
-header:
-	teaser:"https://github.com/landgm/image/blob/master/img/image-20210226153732363.png?raw=true"
+thumbnail:"https://github.com/landgm/image/blob/master/img/image-20210226153732363.png?raw=true"
 excerpt: "DCN Review"
 date: '2021-02-26'
 categories : paper-review
