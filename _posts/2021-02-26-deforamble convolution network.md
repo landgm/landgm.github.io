@@ -26,8 +26,6 @@ tags : [DCN,paper,review,deformable]
     * 최댓값과 평균값을 사용한 풀링이 가장 많이 사용된다.
     
 
-
-
 #### kernel=filter
 
 * 커널이 커지면 연산량이 늘어나다.
@@ -48,7 +46,8 @@ tags : [DCN,paper,review,deformable]
 
 * 공간 해상도 보전.
 
-  <img src="https://raw.githubusercontent.com/landgm/image/image/img/image-20210226153732363.png" alt="image-20210226153732363" style="zoom: 33%;" />
+  <img src="https://github.com/landgm/image/blob/master/img/image-20210226153732363.png?raw=true" alt="예시" style="zoom:33%;" />
+  
   
     
 #### Convolutional neural networks
