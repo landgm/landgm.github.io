@@ -1,5 +1,6 @@
 ---
 title: "Deformable Convolutional Networks Paper Review"
+teaser:"https://github.com/landgm/image/blob/master/img/image-20210226153732363.png?raw=true"
 excerpt: "DCN Review"
 date: '2021-02-26'
 categories : paper-review
@@ -49,7 +50,7 @@ tags : [DCN,paper,review,deformable]
   <img src="https://github.com/landgm/image/blob/master/img/image-20210226153732363.png?raw=true" alt="예시" style="zoom:33%;" />
   
   
-    
+  
 #### Convolutional neural networks
 
    * CNN(Convolutional Neural Network)은 이미지의 공간 정보를 유지하면서 인접 이미지와의 특징을 효과적으로 인식하고 강조하는 방식으    로 **이미지의 특징을 추출**하는 부분과 **이미지를 분류**하는 부분으로 구성됩니다. 특징 추출 영역은 **Filter**를 사용하여 공유 파라미터 수를       최소화하면서 이미지의 특징을 찾는 Convolution 레이어와 특징을 **강화하고 모으**는 Pooling 레이어로 구성됩니다.
