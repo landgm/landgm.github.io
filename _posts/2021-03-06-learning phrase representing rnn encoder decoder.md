@@ -41,7 +41,7 @@ use_math : true
 
 <img src = "https://jamiekang.github.io/media/2017-04-23-learning-phrase-representations-using-rnn-encoder-decoder-fig1.png" width="400px">
 
-$p( y_1,...,y_t'| x_1,...,x_t)$
+`p( y_1,...,y_t'| x_1,...,x_t)`
 
 * input 과 output의 t,t'은 길이가 다를 수 있다.
 
