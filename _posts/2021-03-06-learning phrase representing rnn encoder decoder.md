@@ -53,15 +53,15 @@ $$p( y_1,...,y_t'| x_1,...,x_t) $$
 
 * Decoder는 벡터 c의 영향을 받음.
   
-  $$h_{<t>} = f(h_{<t-1>},y_{t-1},c)$$
+  $h_{<t>} = f(h_{<t-1>},y_{t-1},c)$
   
 * encoder decoder 두개의 네트워크는 학습을 진행할 때 log_likelihood를 최대화 하면서 학습해야한다.
 
-* $$\max_\theta\frac{1}{N}\sum_{n=1}^N logp_\theta(y_n|x_n)$$
+* $\max_\theta\frac{1}{N}\sum_{n=1}^N logp_\theta(y_n|x_n)$
 
  
 
-$$\theta는 모델 parameter이고 이를 추정하기 위해서 gradient 기반의 알고리즘을 사용할 수 있다.$$
+$\theta는 모델 parameter이고 이를 추정하기 위해서 gradient 기반의 알고리즘을 사용할 수 있다.$
 
 
 
