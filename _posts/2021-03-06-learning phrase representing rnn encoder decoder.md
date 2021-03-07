@@ -4,6 +4,7 @@ excerpt: "learning phrase representing rnn encoder decoder Review"
 date: '2021-03-06'
 categories : paper-review
 tags : [RNN,paper,review,encoder,decoder]
+use_math : true
 ---
 
 
@@ -65,7 +66,6 @@ $$
   h_{<t>} = f(h_{<t-1>},y_{t-1},c) 
   $$
   
-
 * encoder decoder 두개의 네트워크는 학습을 진행할 때 log_likelihood를 최대화 하면서 학습해야한다.
 
 $$
