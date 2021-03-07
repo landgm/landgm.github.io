@@ -41,11 +41,11 @@ use_math : true
 
 <img src = "https://jamiekang.github.io/media/2017-04-23-learning-phrase-representations-using-rnn-encoder-decoder-fig1.png" width="400px">
 
-$$p( y_1,...,y_t'| x_1,...,x_t) $$
+$p( y_1,...,y_t'| x_1,...,x_t) $
 
 * input 과 output의 t,t'은 길이가 다를 수 있다.
 
-* $$h_{<t>} = f(h_{<t-1>},x_t) $$
+* $h_{<t>}=f(h_<t-1>,x_t)$
   
 * f는 nonlinear activation function이다.
 
@@ -53,7 +53,7 @@ $$p( y_1,...,y_t'| x_1,...,x_t) $$
 
 * Decoder는 벡터 c의 영향을 받음.
   
-  $h_{<t>} = f(h_{<t-1>},y_{t-1},c)$
+  $h_{<t>}=f(h_<t-1>,y_{t-1},c)$
   
 * encoder decoder 두개의 네트워크는 학습을 진행할 때 log_likelihood를 최대화 하면서 학습해야한다.
 
