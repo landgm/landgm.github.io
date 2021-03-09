@@ -40,8 +40,10 @@ use_math : true
 * 확률적 관점에서 조건부분포를 학습시키는 일반적인 방법이다.
 
 <img src = "https://jamiekang.github.io/media/2017-04-23-learning-phrase-representations-using-rnn-encoder-decoder-fig1.png" width="400px">
+$$
+p( y_1,...,y_t'| x_1,...,x_t)
+$$
 
-`p( y_1,...,y_t'| x_1,...,x_t)`
 
 * input 과 output의 t,t'은 길이가 다를 수 있다.
 
@@ -57,7 +59,13 @@ use_math : true
   
 * encoder decoder 두개의 네트워크는 학습을 진행할 때 log_likelihood를 최대화 하면서 학습해야한다.
 
-``\max_\theta\frac{1}{N}\sum_{n=1}^N log \theta(y_n|x_n) ``
+$$
+\max_\theta\frac{1}{N}\sum_{n=1}^N log_{p_\theta}(y_n|x_n)
+$$
+
+
+
+
 
 
 
