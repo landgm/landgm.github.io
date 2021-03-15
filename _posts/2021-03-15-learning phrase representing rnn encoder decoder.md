@@ -1,7 +1,7 @@
 ---
 title: "learning phrase representing rnn encoder decoder"
 excerpt: "learning phrase representing rnn encoder decoder Review"
-date: '2021-03-06'
+date: '2021-03-15'
 categories : paper-review
 tags : [RNN,paper,review,encoder,decoder]
 use_math : true
