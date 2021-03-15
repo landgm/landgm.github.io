@@ -1,9 +1,9 @@
 ---
 title: "learning phrase representing rnn encoder decoder"
-excerpt: "learning phrase representing rnn encoder decoder Review"
+excerpt: "RNN Encoder-Decoder"
 date: '2021-03-15'
 categories : paper-review
-tags : [RNN,paper,review,encoder,decoder]
+tags : [RNN,paper,review,Encoder,Decoder]
 use_math : true
 ---
 
@@ -42,20 +42,20 @@ use_math : true
 <img src = "https://jamiekang.github.io/media/2017-04-23-learning-phrase-representations-using-rnn-encoder-decoder-fig1.png" width="400px">
 
 
-$$ p( y_1,...,y_t'| x_1,...,x_t)$$
+$ p( y_1,...,y_t'| x_1,...,x_t)$
 * input 과 output의 t,t'은 길이가 다를 수 있다.
 
-$$h_{<t>} = f(h_{<t-1>},x_t) $$ 
+$h_{<t>} = f(h_{<t-1>},x_t)$ 
 * f는 nonlinear activation function이다.
 * input인 x가 hidden state를 통과하면서 벡터 c가 된다.
 * Decoder는 벡터 c의 영향을 받음.
-$$h_{<t>} = f(h_{<t-1>},y_{t-1},c) $$ 
+$h_{<t>} = f(h_{<t-1>},y_{t-1},c)$
 
 * encoder decoder 두개의 네트워크는 학습을 진행할 때 log_likelihood를 최대화 하면서 학습해야한다.
 
-$$\max_\theta\frac{1}{N}\sum_{n=1}^N logp_\theta(y_n|x_n) $$
+$\max_\theta\frac{1}{N}\sum_{n=1}^N logp_\theta(y_n|x_n)$
 
-$$\theta는 모델 parameter이고 이를 추정하기 위해서 gradient 기반의 알고리즘을 사용할 수 있다.$$
+$\theta는 모델 parameter이고 이를 추정하기 위해서 gradient 기반의 알고리즘을 사용할 수 있다.$
 
 
 #### Hidden Unit
