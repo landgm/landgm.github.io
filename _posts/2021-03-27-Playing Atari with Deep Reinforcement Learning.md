@@ -59,16 +59,16 @@ use_math : true
 * An RL agent may include one or more of these components:
     * Policy: agent’s behaviour function
         * 어떤 상태에 있을 때 뭘 해야되는지 알려준다.
-            * Deterministic policy : $a = \pi(s)$ 항상 일정한 정책 즉 똑같은 액션이 돌아온다
-            * $Sthochastic policy : \pi(a | s) = P[a | s] 확률로 돌아온다.$
+            * Deterministic policy : $a = \pi(s) 항상 일정한 정책 즉 똑같은 액션이 돌아온다 $
+            * Sthochastic policy : $\pi(a | s) = P[a | s]확률로 돌아온다. $
     * Value function: how good is each state and/or action
         * state s에서 어떤 행동을 하면 보상을 얼마나 받을 것인지.
             * Q-Value는 어떤 행동을 했을 때 기대되는 보상
-            * $Q^\pi(s,a) = E[r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3}+ ... | s, a]$
+            * $Q^\pi(s,a) = E[r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3}+ ... | s, a] $
             * Q를 배우는 과정은 Bellman equation으로 나타낼 수 있다.
-                * $Q^\pi (s,a) = E_{s',a'} [r+ \gamma Q^\pi (s',a') | s, a]$
+                * $Q^\pi (s,a) = E_{s',a'} [r+ \gamma Q^\pi (s',a') | s, a] $
                     * 바로 받은 reward랑 그 다음 상태로 갔을 때 Q function에서 가장 큰 값을 더하면 된다.
-            * 풀어서 봤을 때는 $Q^*(s,a) = \underset{\pi}\max Q^\pi(s,a) = Q^{\pi^*} (s,a)$
+            * 풀어서 봤을 때는 $Q^*(s,a) = \underset{\pi}\max Q^\pi(s,a) = Q^{\pi^*} (s,a) $
                 * 상태와 액션을 줬을 때 가장 optimal한 Q function을 optimal이라고 하고 *을 붙여준다. 
                 * optimal은 Q가 가질 수 있는 최대값을 가져온다는 뜻.
         
@@ -77,12 +77,12 @@ use_math : true
 #### value based RL
    * Q-networks
        * Represent value function by Q-network with weights w
-       * $Q(s, a, w) \approx Q^* (s, a)$
+       * $Q(s, a, w) \approx Q^* (s, a) $
        * w를 가지고 있는 Q가 optimal한 Q를 닮아가도록 만드는게 목표
    * Q-learning
        * Optimal Q-values should obey Bellman equation
            * $Q^*(s,a)= E_{s'} [r + \gamma \underset{a'}\max Q(s',a')^* | s,a] $
-       * Treat right -hand side $r + \gamma \underset{a'}\max Q(s',a',w)$     
+       * Treat right -hand side $r + \gamma \underset{a'}\max Q(s',a',w) $     
        * Mininise MSE loss by stochastic gradient descent
            * $I =  (r + \gamma \underset{a'}\max Q(s',a',w) - Q(s,a,w))^2 $ 
                * $ y를 r+ \gamma \underset{a'}\max Q(s',a',w),  \hat{y}은 Q(s,a,w)로 해서 LOSS function을 구한다 $ 
