@@ -60,7 +60,7 @@ use_math : true
     * Policy: agent’s behaviour function
         * 어떤 상태에 있을 때 뭘 해야되는지 알려준다.
             * Deterministic policy : $a = \pi(s)$ 항상 일정한 정책 즉 똑같은 액션이 돌아온다
-            * Sthchastic policy : $\pi(a | s) = P[a | s]$ 확률로 돌아온다.
+            * $Sthochastic policy : \pi(a | s) = P[a | s] 확률로 돌아온다.$
     * Value function: how good is each state and/or action
         * state s에서 어떤 행동을 하면 보상을 얼마나 받을 것인지.
             * Q-Value는 어떤 행동을 했을 때 기대되는 보상
