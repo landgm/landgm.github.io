@@ -82,8 +82,13 @@ use_math : true
 
 #### Conclusion
 
-    * SRCNN의 성능이 좋다.
-    * 2014년 이후 거의 모든 suer resolution 문제에 대한 연구들이 srcnn을 기반으로 함
+* SRCNN의 성능이 좋다.
+
+* 2014년 이후 거의 모든 suer resolution 문제에 대한 연구들이 srcnn을 기반으로 함
+
+  ---
+
+  
 
 * References
     * [현아의 일희일비 블로그](https://hyuna-tech.tistory.com/entry/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-Image-Super-Resolution-Using-Deep-Convolutional-Networks)
