@@ -68,7 +68,7 @@ use_math : true
             * Q를 배우는 과정은 Bellman equation으로 나타낼 수 있다.
                 * $Q^\pi (s,a) = E_{s',a'} [r+ \gamma Q^\pi (s',a') \mid s, a] $
                     * 바로 받은 reward랑 그 다음 상태로 갔을 때 Q function에서 가장 큰 값을 더하면 된다.
-            * 풀어서 봤을 때는 $Q^*(s,a) = \underset{\pi}\max Q^\pi(s,a) = Q^{\pi^*} (s,a) $
+            * 풀어서 봤을 때는 $Q^\ast(s,a) = \underset{\pi}\max Q^\pi(s,a) = Q^{\pi^\ast} (s,a) $
                 * 상태와 액션을 줬을 때 가장 optimal한 Q function을 optimal이라고 하고 *을 붙여준다. 
                 * optimal은 Q가 가질 수 있는 최대값을 가져온다는 뜻.
         
@@ -81,7 +81,7 @@ use_math : true
        * w를 가지고 있는 Q가 optimal한 Q를 닮아가도록 만드는게 목표
    * Q-learning
        * Optimal Q-values should obey Bellman equation
-           * $Q^*(s,a)= E_{s'} [r + \gamma \underset{a'}\max Q(s',a')^* \mid s,a] $
+           * $Q^*(s,a)= E_{s'} [r + \gamma \underset{a'}\max Q(s',a')^\ast \mid s,a] $
        * Treat right -hand side $r + \gamma \underset{a'}\max Q(s',a',w) $     
        * Minimize MSE loss by stochastic gradient descent
            * $I =  (r + \gamma \underset{a'}\max Q(s',a',w) - Q(s,a,w))^2 $ 
