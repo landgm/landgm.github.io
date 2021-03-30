@@ -20,7 +20,7 @@ use_math : true
 ---
 
 
-* $p' = {ln \left (p\over1-p \right ) } = {ln \left( E(y)\over 1-E(y) \right )} = ln \left( {{exp (\beta_0 + \beta_1) \over 1+exp(\beta_0+\beta_1 x)} \over {1 \over 1+exp(\beta_0+\beta_1 x)}} \right ) =  \beta_0+\beta_1 x $
+* $p' = {ln \left (p\over1-p \right ) } = {ln \left( E(y)\over 1-E(y) \right )} = ln \left( {exp (\beta_0 + \beta_1) \over 1+exp(\beta_0+\beta_1 x)} \over {1 \over 1+exp(\beta_0+\beta_1 x)} \right ) =  \beta_0+\beta_1 x $
 
 * 이러한 변환을 로지스틱변환이라고 부릅니다.
 
