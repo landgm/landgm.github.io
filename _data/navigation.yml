@@ -8,7 +8,7 @@ main:
     url: https://landgm.github.io/categories/study/
   - title: "Kaggle"
     url: https://landgm.github.io/categories/kaggle/	
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Programmers"
+    url: https://landgm.github.io/categories/programmers/
   # - title: "Sitemap"
   #   url: /sitemap/
