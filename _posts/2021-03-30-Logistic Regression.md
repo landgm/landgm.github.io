@@ -25,7 +25,7 @@ use_math : true
 * 이러한 변환을 로지스틱변환이라고 부릅니다.
 
 #### 계수 추정법
-* 3번 째 수식 $1- W_{beta}(x)입니다$
+* 2번 째 수식 $1- W_{\beta}(x)입니다$
 * ![로지스틱1](https://github.com/landgm/image/blob/master/img/logistic1.jpg?raw=true)
 * ![로지스틱2](https://github.com/landgm/image/blob/master/img/logistic2.jpg?raw=true)
 
