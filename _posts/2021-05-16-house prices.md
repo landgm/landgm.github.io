@@ -1,9 +1,11 @@
+---
 title: "Kaggle 분석 1"
 excerpt: "House price data"
 date: '2021-05-16'
 categories : kaggle
 tags : [kaggle,house, price]
 use_math : true
+---
 
 
 
