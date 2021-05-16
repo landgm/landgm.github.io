@@ -1,11 +1,9 @@
----
 title: "Kaggle 분석 1"
 excerpt: "House price data"
 date: '2021-05-16'
 categories : kaggle
 tags : [kaggle,house, price]
 use_math : true
----
 
 
 
@@ -14,9 +12,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-pd.set_option('display.max_row', 500)
-pd.set_option('display.max_columns', 100)
 ```
 
 
@@ -1109,16 +1104,13 @@ sns.distplot(df['SalePrice']);
 ```
 
 
-![png](output_8_0.png)
+
 
 
 
 ```python
 sns.histplot(df['SalePrice'], kde = True);
 ```
-
-
-![png](output_9_0.png)
 
 
 
@@ -1133,17 +1125,9 @@ sns.histplot(x = 'MSSubClass', data = df)
 
 
 
-
-![png](output_10_1.png)
-
-
-
 ```python
 sns.countplot(df["Fence"]);
 ```
-
-
-![png](output_11_0.png)
 
 
 
