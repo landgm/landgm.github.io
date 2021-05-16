@@ -1,6 +1,6 @@
 ---
 title: "Kaggle 분석 1"
-excerpt: "House price data"
+excerpt: "house price data"
 date: '2021-05-16'
 categories : kaggle
 tags : [kaggle,house, price]
@@ -24,7 +24,7 @@ warnings.filterwarnings("ignore")
 
 
 ```python
-df = pd.read_csv('C:/Users/landg/Downloads/Python_Study_GM/캐글/train.csv')
+df = pd.read_csv('../train.csv')
 ```
 
 
