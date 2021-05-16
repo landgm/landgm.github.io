@@ -4092,16 +4092,6 @@ sns.countplot(y)
 
 
 
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x2553e042ec8>
-
-
-
-
-![png](output_66_1.png)
-
-
-
 ```python
 from sklearn.model_selection import train_test_split
 ```
