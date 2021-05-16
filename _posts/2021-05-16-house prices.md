@@ -1,13 +1,11 @@
 ---
-title: "Kaggle 분석 1"
+title: "Kaggle 분석"
 excerpt: "house price data"
 date: '2021-05-16'
 categories : kaggle
 tags : [kaggle,house, price]
 use_math : true
 ---
-
-
 
 ```python
 import pandas as pd
